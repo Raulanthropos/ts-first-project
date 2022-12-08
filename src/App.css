@@ -1,3 +1,16 @@
+.movie {
+  aspect-ratio: 3/4;
+  border-radius: 10px;
+  max-height: 400px;
+  max-width: 250px;
+  object-fit: cover;
+}
+
+.movie:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 .App {
   text-align: center;
 }
